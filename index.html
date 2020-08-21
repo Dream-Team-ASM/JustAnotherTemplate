@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/6475ca8fea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="side-items">
+            <div class="item selected" id="about" onclick="setActive('about')">
+                <i class="fas fa-users"></i>
+                <p>ABOUT</p>
+            </div>
+            <div class="item" id="resume" onclick="setActive('resume')">
+                <i class="fas fa-poll-h"></i>
+                <p>RESUME</p>
+            </div>
+            <div class="item" id="works" onclick="setActive('works')">
+                <i class="fas fa-paint-brush"></i>
+                <p>WORKS</p>
+            </div>
+            <div class="item" id="blogs" onclick="setActive('blogs')">
+                <i class="fas fa-comment-dots"></i>
+                <p>BLOGS</p>
+            </div>
+            <div class="item" id="contact" onclick="setActive('contact')">
+                <i class="fas fa-at"></i>
+                <p>CONTACT</p>
+            </div>
+        </div>
+        <div class="other-container">
+            <div class="profile"></div>
+            <div class="info-container">
+                <div class="info-board active" id="about-board">
+                    About
+                </div>
+                <div class="info-board" id="resume-board">
+                    Resume
+                </div>
+                <div class="info-board" id="works-board">
+                    Works
+                </div>
+                <div class="info-board" id="blogs-board">
+                    Blogs
+                </div>
+                <div class="info-board" id="contact-board">
+                    contacts
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
